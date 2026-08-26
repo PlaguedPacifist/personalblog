@@ -28,26 +28,22 @@ function App() {
   return (
 <>
 
-  <title>Homepage</title>
-  <link rel="stylesheet" href="index.css" />
+  <title>Writing</title>
+  <link rel="stylesheet" href="whatever.css" />
   <div id="header">
     <img src={headergif} />
   </div>
 
 
 
+
+
   <div id="maincontent">
-    <h1>About Me!</h1>
-    <p>17| Bi/Pan | He/Him or any pronouns you prefer | 🇵🇭 |
-☀️💡|🚦💚💛♥️|🌙🧠📖⏰<br></br>
-i like omori, hermitcraft+life series, and project moon!
-trying out art, writing, and coding!!!<br></br>
-you can call me Plagued/Plagy/Petunia or whatever funny nickname you have</p>
-    <p>I basically just do whatever i'll be honest i draw, write, read, coding and play games for my hobbies!!!
-<br></br> like to talk to people lots though only to people i already know y'know
-I might also be a fair bit too attached and stuff blehnpx (i really dont mean to though so i'm very sorry if i'm being a bother sometimes, its ok to tell me off, seriously)
-</p>
-<p>I'm free whenever for whoever! just look through my socials and talk to me about stuff!</p>
+    <h1>Writing!</h1>
+    <p>Warning all of these are made with the angst and shitty writing of a goddamn teenager, dont expect hamlet levels of peak</p>
+    <p>im still wondering where to even publish them tbh but you can read them here for now</p>
+    <p>The Still Beating Heart Of a Dead Man (ONGOING): https://plaguedpacifist.straw.page/stillbeatingheart</p>
+    <p>Da Capo Al Fine (Coming Soon/Unfinished):</p>
   </div>
 
 
@@ -55,7 +51,7 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   <div id="sidetabs">
     <div id="tabs">
-      <a href="Home.js">
+      <a href="Home">
         <img src={homegif} />
       </a>
     </div>
@@ -106,8 +102,8 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
         }}
   />
   </div>
-  
-<div id="forgetmenot1">
+
+  <div id="forgetmenot1">
   <img src={forgetmenot1} />
 </div>
 <div id="forgetmenot2">
@@ -124,5 +120,6 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   );
 }
+
 export default App;
 // ad

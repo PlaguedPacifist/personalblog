@@ -1,4 +1,3 @@
-
 import rantinggif from './imgfiles/rantingbtngif.gif'
 import headergif from './imgfiles/header.gif'
 import artgif from './imgfiles/artgif.gif'
@@ -28,26 +27,25 @@ function App() {
   return (
 <>
 
-  <title>Homepage</title>
-  <link rel="stylesheet" href="index.css" />
+  <title>Socials</title>
+  <link rel="stylesheet" href="whatever.css" />
   <div id="header">
     <img src={headergif} />
   </div>
 
 
 
+
   <div id="maincontent">
-    <h1>About Me!</h1>
-    <p>17| Bi/Pan | He/Him or any pronouns you prefer | 🇵🇭 |
-☀️💡|🚦💚💛♥️|🌙🧠📖⏰<br></br>
-i like omori, hermitcraft+life series, and project moon!
-trying out art, writing, and coding!!!<br></br>
-you can call me Plagued/Plagy/Petunia or whatever funny nickname you have</p>
-    <p>I basically just do whatever i'll be honest i draw, write, read, coding and play games for my hobbies!!!
-<br></br> like to talk to people lots though only to people i already know y'know
-I might also be a fair bit too attached and stuff blehnpx (i really dont mean to though so i'm very sorry if i'm being a bother sometimes, its ok to tell me off, seriously)
-</p>
-<p>I'm free whenever for whoever! just look through my socials and talk to me about stuff!</p>
+    <h1>Socials</h1>
+    <p>Twitter/X: @PlaguedPacifist</p>
+    <p>Youtube: @Plagued_Pacifist</p>
+    <p>Discord: plaguedpacifist</p>
+    <p>TikTok: @PlaguedPacifist</p>
+    <p>Instagram: @PlaguedPacifist</p>
+    <p>GitHub: CuredMurderer</p>
+    <p>Roblox: ShadowHunter3061</p>
+
   </div>
 
 
@@ -55,7 +53,7 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   <div id="sidetabs">
     <div id="tabs">
-      <a href="Home.js">
+      <a href="Home">
         <img src={homegif} />
       </a>
     </div>
@@ -106,8 +104,8 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
         }}
   />
   </div>
-  
-<div id="forgetmenot1">
+
+  <div id="forgetmenot1">
   <img src={forgetmenot1} />
 </div>
 <div id="forgetmenot2">
@@ -124,5 +122,6 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   );
 }
+
 export default App;
 // ad
