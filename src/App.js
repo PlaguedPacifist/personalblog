@@ -51,32 +51,32 @@ function App() {
 
   <div id="sidetabs">
     <div id="tabs">
-      <a href="Home.js">
+      <a href="Home">
         <img src={homegif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Art.js">
+      <a href="Art">
         <img src={artgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Writing.js">
+      <a href="Writing">
         <img src={writinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Websites.js">
+      <a href="Websites">
         <img src={websitesgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Ranting.js">
+      <a href="Ranting">
         <img src={rantinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Socials.js">
+      <a href="Socials">
         <img src={socialsgif} />
       </a>
     </div>
