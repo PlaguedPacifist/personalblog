@@ -18,6 +18,11 @@ import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './App'
 import Art from './p2Art'
+import Writing from './App'
+import Websites from './App'
+import Ranting from './App'
+import Social from './App'
+import Guestbook from './App'
 
 function App() {
   return (
