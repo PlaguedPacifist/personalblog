@@ -38,7 +38,6 @@ function App() {
   <Route path="/Guestbook" element={<Guestbook />}/>
 </Routes>
 </BrowserRouter>
-  <title>Homepage</title>
   <link rel="stylesheet" href="index.css" />
   <div id="header">
     <img src={headergif} />
