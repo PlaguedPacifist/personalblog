@@ -21,7 +21,7 @@ import Art from './App'
 import Writing from './App'
 import Websites from './App'
 import Ranting from './App'
-import Social from './App'
+import Socials from './App'
 import Guestbook from './App'
 
 function App() {
@@ -62,32 +62,32 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
       </a>
     </div>
     <div id="tabs">
-      <a href="Art.js">
+      <a href="Art">
         <img src={artgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Writing.js">
+      <a href="Writing">
         <img src={writinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Websites.js">
+      <a href="Websites">
         <img src={websitesgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Ranting.js">
+      <a href="Ranting">
         <img src={rantinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Socials.js">
+      <a href="Socials">
         <img src={socialsgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Guestbook.js">
+      <a href="Guestbook">
         <img src={guestbookgif} />
       </a>
     </div>
