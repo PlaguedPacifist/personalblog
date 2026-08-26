@@ -27,25 +27,26 @@ import Guestbook from './Guestbook'
 function App() {
   return (
 <>
-<BrowserRouter>
-<Routes>
-  <Route path="/Home" element={<Home />}/>
-  <Route path="/Art" element={<Art />}/>
-  <Route path="/Writing" element={<Writing />}/>
-  <Route path="/Ranting" element={<Ranting />}/>
-  <Route path="/Websites" element={<Websites />}/>
-  <Route path="/Socials" element={<Socials />}/>
-  <Route path="/Guestbook" element={<Guestbook />}/>
-</Routes>
-</BrowserRouter>
+
   <title>Homepage</title>
   <link rel="stylesheet" href="index.css" />
   <div id="header">
     <img src={headergif} />
   </div>
 
-
-
+  <div id="maincontent">
+    <h1>About Me!</h1>
+    <p>17| Bi/Pan | He/Him or any pronouns you prefer | 🇵🇭 |
+☀️💡|🚦💚💛♥️|🌙🧠📖⏰<br></br>
+i like omori, hermitcraft+life series, and project moon!
+trying out art, writing, and coding!!!<br></br>
+you can call me Plagued/Plagy/Petunia or whatever funny nickname you have</p>
+    <p>I basically just do whatever i'll be honest i draw, write, read, coding and play games for my hobbies!!!
+<br></br> like to talk to people lots though only to people i already know y'know
+I might also be a fair bit too attached and stuff blehnpx (i really dont mean to though so i'm very sorry if i'm being a bother sometimes, its ok to tell me off, seriously)
+</p>
+<p>I'm free whenever for whoever! just look through my socials and talk to me about stuff!</p>
+  </div>
 
 
 

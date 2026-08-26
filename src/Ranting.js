@@ -15,7 +15,7 @@ import petunias from './imgfiles/petunia1.png'
 import Wave from 'react-wavify'
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './App'
+import Home from './Home'
 import Art from './Art'
 import Writing from './Writing'
 import Websites from './Websites'
@@ -41,7 +41,8 @@ function App() {
     <h1>Ranting!</h1>
     <p>Some bunch of stuff i want to rant about</p>
 
-    <p>Nothin yet</p>
+    <h1>08/26/2026 - Finally done?</h1>
+    <p>I started this project wayyyyy back in march but burn out + depression + two suicide attempts made that kinda hard to deal with but now its fixed!!!!</p>
   </div>
 
 

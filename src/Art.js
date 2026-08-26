@@ -26,7 +26,7 @@ import art10 from './imgfiles/LobotomyEGORegretSunnyFB.png'
 import Wave from 'react-wavify'
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './App'
+import Home from './Home'
 import Art from './Art'
 import Writing from './Writing'
 import Websites from './Websites'

@@ -15,7 +15,7 @@ import petunias from './imgfiles/petunia1.png'
 import Wave from 'react-wavify'
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './App'
+import Home from './Home'
 import Art from './Art'
 import Writing from './Writing'
 import Websites from './Websites'
@@ -43,7 +43,7 @@ function App() {
     <p>Discord: plaguedpacifist</p>
     <p>TikTok: @PlaguedPacifist</p>
     <p>Instagram: @PlaguedPacifist</p>
-    <p>GitHub: CuredMurderer</p>
+    <p>GitHub: PlaguedPacifist</p>
     <p>Roblox: ShadowHunter3061</p>
 
   </div>
