@@ -68,7 +68,7 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
       </a>
     </div>
     <div id="tabs">
-      <a href="Art">
+      <a href="https://plaguedpacifist.github.io/personalblogart/">
         <img src={artgif} />
       </a>
     </div>
