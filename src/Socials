@@ -1,4 +1,3 @@
-
 import rantinggif from './imgfiles/rantingbtngif.gif'
 import headergif from './imgfiles/header.gif'
 import artgif from './imgfiles/artgif.gif'
@@ -16,47 +15,33 @@ import petunias from './imgfiles/petunia1.png'
 import Wave from 'react-wavify'
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './Home'
-import Art from './Art'
-import Writing from './Writing'
-import Websites from './Websites'
-import Ranting from './Ranting'
-import Socials from './Socials'
-import Guestbook from './Guestbook'
+import Home from './App'
+import Art from './p2Art'
 
 function App() {
   return (
 <>
-<BrowserRouter>
-<Routes>
-  <Route path="/Home" element={<Home />}/>
-  <Route path="/Art" element={<Art />}/>
-  <Route path="/Writing" element={<Writing />}/>
-  <Route path="/Ranting" element={<Ranting />}/>
-  <Route path="/Websites" element={<Websites />}/>
-  <Route path="/Socials" element={<Socials />}/>
-  <Route path="/Guestbook" element={<Guestbook />}/>
-</Routes>
-</BrowserRouter>
-  <link rel="stylesheet" href="index.css" />
+
+  <title>Socials</title>
+  <link rel="stylesheet" href="whatever.css" />
   <div id="header">
     <img src={headergif} />
   </div>
 
-  <div id="maincontent">
-    <h1>About Me!</h1>
-    <p>17| Bi/Pan | He/Him or any pronouns you prefer | 🇵🇭 |
-☀️💡|🚦💚💛♥️|🌙🧠📖⏰<br></br>
-i like omori, hermitcraft+life series, and project moon!
-trying out art, writing, and coding!!!<br></br>
-you can call me Plagued/Petunia or whatever funny nickname you have (but if youre someone i like then you can call me plagy/tunia!!!)</p>
-    <p>I basically just do whatever i'll be honest i draw, write, read, coding and play games for my hobbies!!!
-<br></br> like to talk to people lots though only to people i already know y'know
-I might also be a fair bit too attached and stuff blehnpx (i really dont mean to though so i'm very sorry if i'm being a bother sometimes, its ok to tell me off, seriously)
-</p>
-<p>I'm free whenever for whoever! just look through my socials and talk to me about stuff!</p>
-  </div>
 
+
+
+  <div id="maincontent">
+    <h1>Socials</h1>
+    <p>Twitter/X: @PlaguedPacifist</p>
+    <p>Youtube: @Plagued_Pacifist</p>
+    <p>Discord: plaguedpacifist</p>
+    <p>TikTok: @PlaguedPacifist</p>
+    <p>Instagram: @PlaguedPacifist</p>
+    <p>GitHub: CuredMurderer</p>
+    <p>Roblox: ShadowHunter3061</p>
+
+  </div>
 
 
 
@@ -114,8 +99,8 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
         }}
   />
   </div>
-  
-<div id="forgetmenot1">
+
+  <div id="forgetmenot1">
   <img src={forgetmenot1} />
 </div>
 <div id="forgetmenot2">
@@ -132,5 +117,6 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   );
 }
+
 export default App;
 // ad
