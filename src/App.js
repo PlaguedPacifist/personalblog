@@ -14,7 +14,7 @@ import gardenias from './imgfiles/gardenia1.png'
 import petunias from './imgfiles/petunia1.png'
 
 import Wave from 'react-wavify'
-import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import {BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 import Home from './Home'
 import Art from './Art'
@@ -63,37 +63,37 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   <div id="sidetabs">
     <div id="tabs">
-      <a href="Home">
+      <a href="#/Home">
         <img src={homegif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="https://plaguedpacifist.github.io/personalblogart/">
+      <a href="#/Art">
         <img src={artgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Writing">
+      <a href="#/Writing">
         <img src={writinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Websites">
+      <a href="#/Websites">
         <img src={websitesgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Ranting">
+      <a href="#/Ranting">
         <img src={rantinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Socials">
+      <a href="#/Socials">
         <img src={socialsgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="Guestbook">
+      <a href="#/Guestbook">
         <img src={guestbookgif} />
       </a>
     </div>
