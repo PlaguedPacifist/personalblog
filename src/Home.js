@@ -1,4 +1,4 @@
-function App() {
+export function Homefunc() {
   return (
 <>
 
@@ -27,5 +27,5 @@ I might also be a fair bit too attached and stuff blehnpx (i really dont mean to
 
   );
 }
-export default App;
+export default Homefunc;
 // ad

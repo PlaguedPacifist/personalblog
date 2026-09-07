@@ -1,5 +1,5 @@
 
-function App() {
+export function Socialsfunc() {
   return (
 <>
 
@@ -28,5 +28,5 @@ function App() {
   );
 }
 
-export default App;
+export default Socialsfunc;
 // ad

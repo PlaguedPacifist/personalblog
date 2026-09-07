@@ -10,9 +10,8 @@ import art8 from './imgfiles/3RespiteFromRealityUnfinished.png'
 import art9 from './imgfiles/LobotomyEGOGreenStemAubreyFB.png'
 import art10 from './imgfiles/LobotomyEGORegretSunnyFB.png'
 
-import Wave from 'react-wavify'
 
-function App() {
+export function Artfunc() {
   return (
 <>
 
@@ -55,5 +54,5 @@ function App() {
   );
 }
 
-export default App;
+export default Artfunc;
 // ad

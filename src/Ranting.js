@@ -1,5 +1,5 @@
 
-function App() {
+export function Rantingfunc() {
   return (
 <>
 
@@ -23,5 +23,5 @@ function App() {
   );
 }
 
-export default App;
+export default Rantingfunc;
 // ad

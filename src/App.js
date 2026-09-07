@@ -16,80 +16,75 @@ import petunias from './imgfiles/petunia1.png'
 import Wave from 'react-wavify'
 import {BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
-import Home from './Home.js'
-import Art from './Art.js'
-import Writing from './Writing.js'
-import Websites from './Websites.js'
-import Ranting from './Ranting.js'
-import Socials from './Socials.js'
-import Guestbook from './Guestbook.js'
+import { Homefunc } from './Home'
+import { Artfunc } from './Art'
+import Writing from './Writing'
+import Websites from './Websites'
+import { Rantingfunc } from './Ranting'
+import { Socialsfunc } from './Socials'
+import { Guestbookfunc } from './Guestbook'
+
 
 function App() {
   return (
 <>
-<BrowserRouter>
-<Routes>
-  <Route path="/Home" element={<Home />}/>
-  <Route path="/Art" element={<Art />}/>
-  <Route path="/Writing" element={<Writing />}/>
-  <Route path="/Ranting" element={<Ranting />}/>
-  <Route path="/Websites" element={<Websites />}/>
-  <Route path="/Socials" element={<Socials />}/>
-  <Route path="/Guestbook" element={<Guestbook />}/>
-</Routes>
-</BrowserRouter>
   <link rel="stylesheet" href="index.css" />
   <div id="header">
     <img src={headergif} />
   </div>
-  <div id="header">
-    <img src={headergif} />
-  </div>
-
-
-
-
-
-
+<BrowserRouter>
 <nav>
   <div id="sidetabs">
     <div id="tabs">
-      <a href="Home">
+      <Link to="/Home">
         <img src={homegif} />
-      </a>
+      </Link>
     </div>
     <div id="tabs">
-      <a href="Art">
+      <Link to="/Art">
         <img src={artgif} />
-      </a>
+      </Link>
     </div>
     <div id="tabs">
-      <a href="Writing">
+      <Link to="/Writing">
         <img src={writinggif} />
-      </a>
+      </Link>
     </div>
     <div id="tabs">
-      <a href="Websites">
+      <Link to="/Websites">
         <img src={websitesgif} />
-      </a>
+      </Link>
     </div>
     <div id="tabs">
-      <a href="Ranting">
+      <Link to="/Ranting">
         <img src={rantinggif} />
-      </a>
+      </Link>
     </div>
     <div id="tabs">
-      <a href="Socials">
+      <Link to="/Socials">
         <img src={socialsgif} />
-      </a>
+      </Link>
     </div>
     <div id="tabs">
-      <a href="Guestbook">
+        <Link to="/Guestbook">
         <img src={guestbookgif} />
-      </a>
+      </Link>
     </div>
   </div>
   </nav>
+
+<Routes>
+  <Route path="/Home" element={<Homefunc />}/>
+  <Route path="/Art" element={<Artfunc />}/>
+  <Route path="/Writing" element={<Writing />}/>
+  <Route path="/Ranting" element={<Rantingfunc />}/>
+  <Route path="/Websites" element={<Websites />}/>
+  <Route path="/Socials" element={<Socialsfunc />}/>
+  <Route path="/Guestbook" element={<Guestbookfunc />}/>
+</Routes>
+</BrowserRouter>
+
+  
   <div id="waves">
     <Wave fill='#9461ed85'
         paused={false}
