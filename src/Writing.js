@@ -1,5 +1,5 @@
 
-function App() {
+export function Writingfunc() {
   return (
 <>
 
@@ -22,5 +22,5 @@ function App() {
   );
 }
 
-export default App;
+export default Writingfunc;
 // ad

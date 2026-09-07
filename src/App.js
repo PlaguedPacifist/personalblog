@@ -18,8 +18,8 @@ import {BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 import { Homefunc } from './Home'
 import { Artfunc } from './Art'
-import Writing from './Writing'
-import Websites from './Websites'
+import { Writingfunc } from './Writing'
+import { Websitesfunc } from './Websites'
 import { Rantingfunc } from './Ranting'
 import { Socialsfunc } from './Socials'
 import { Guestbookfunc } from './Guestbook'
@@ -76,9 +76,9 @@ function App() {
 <Routes>
   <Route path="/Home" element={<Homefunc />}/>
   <Route path="/Art" element={<Artfunc />}/>
-  <Route path="/Writing" element={<Writing />}/>
+  <Route path="/Writing" element={<Writingfunc />}/>
   <Route path="/Ranting" element={<Rantingfunc />}/>
-  <Route path="/Websites" element={<Websites />}/>
+  <Route path="/Websites" element={<Websitesfunc />}/>
   <Route path="/Socials" element={<Socialsfunc />}/>
   <Route path="/Guestbook" element={<Guestbookfunc />}/>
 </Routes>
