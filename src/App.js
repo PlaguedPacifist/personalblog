@@ -14,7 +14,7 @@ import gardenias from './imgfiles/gardenia1.png'
 import petunias from './imgfiles/petunia1.png'
 
 import Wave from 'react-wavify'
-import {BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import {HashRouter, Route, Routes, Link } from 'react-router-dom';
 
 import { Homefunc } from './Home'
 import { Artfunc } from './Art'
@@ -32,41 +32,41 @@ function App() {
   <div id="header">
     <img src={headergif} />
   </div>
-<BrowserRouter>
+<HashRouter>
 <nav>
   <div id="sidetabs">
     <div id="tabs">
-      <Link to="#/Home">
+      <Link to="Home">
         <img src={homegif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="#/Art">
+      <Link to="Art">
         <img src={artgif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="#/Writing">
+      <Link to="Writing">
         <img src={writinggif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="#/Websites">
+      <Link to="Websites">
         <img src={websitesgif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="#/Ranting">
+      <Link to="Ranting">
         <img src={rantinggif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="#/Socials">
+      <Link to="Socials">
         <img src={socialsgif} />
       </Link>
     </div>
     <div id="tabs">
-        <Link to="#/Guestbook">
+        <Link to="Guestbook">
         <img src={guestbookgif} />
       </Link>
     </div>
@@ -74,15 +74,15 @@ function App() {
   </nav>
 
 <Routes>
-  <Route path="#/Home" element={<Homefunc />}/>
-  <Route path="#/Art" element={<Artfunc />}/>
-  <Route path="#/Writing" element={<Writingfunc />}/>
-  <Route path="#/Ranting" element={<Rantingfunc />}/>
-  <Route path="#/Websites" element={<Websitesfunc />}/>
-  <Route path="#/Socials" element={<Socialsfunc />}/>
-  <Route path="#/Guestbook" element={<Guestbookfunc />}/>
+  <Route path="Home" element={<Homefunc />}/>
+  <Route path="Art" element={<Artfunc />}/>
+  <Route path="Writing" element={<Writingfunc />}/>
+  <Route path="Ranting" element={<Rantingfunc />}/>
+  <Route path="Websites" element={<Websitesfunc />}/>
+  <Route path="Socials" element={<Socialsfunc />}/>
+  <Route path="Guestbook" element={<Guestbookfunc />}/>
 </Routes>
-</BrowserRouter>
+</HashRouter>
 
   
   <div id="waves">
