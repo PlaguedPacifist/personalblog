@@ -16,13 +16,13 @@ import petunias from './imgfiles/petunia1.png'
 import Wave from 'react-wavify'
 import {BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
-import Home from './Home'
-import Art from './Art'
-import Writing from './Writing'
-import Websites from './Websites'
-import Ranting from './Ranting'
-import Socials from './Socials'
-import Guestbook from './Guestbook'
+import Home from './Home.js'
+import Art from './Art.js'
+import Writing from './Writing.js'
+import Websites from './Websites.js'
+import Ranting from './Ranting.js'
+import Socials from './Socials.js'
+import Guestbook from './Guestbook.js'
 
 function App() {
   return (
@@ -42,62 +42,54 @@ function App() {
   <div id="header">
     <img src={headergif} />
   </div>
-
-  <div id="maincontent">
-    <h1>About Me!</h1>
-    <p>17| Bi/Pan | He/Him or any pronouns you prefer | 🇵🇭 |
-☀️💡|🚦💚💛♥️|🌙🧠📖⏰<br></br>
-i like omori, hermitcraft+life series, and project moon!
-trying out art, writing, and coding!!!<br></br>
-you can call me Plagued/Petunia or whatever funny nickname you have (but if youre someone i like then you can call me plagy/tunia!!!)</p>
-    <p>I basically just do whatever i'll be honest i draw, write, read, coding and play games for my hobbies!!!
-<br></br> like to talk to people lots though only to people i already know y'know
-I might also be a fair bit too attached and stuff blehnpx (i really dont mean to though so i'm very sorry if i'm being a bother sometimes, its ok to tell me off, seriously)
-</p>
-<p>I'm free whenever for whoever! just look through my socials and talk to me about stuff!</p>
+  <div id="header">
+    <img src={headergif} />
   </div>
 
 
 
 
 
+
+<nav>
   <div id="sidetabs">
     <div id="tabs">
-      <a href="#/Home">
+      <a href="Home">
         <img src={homegif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="#/Art">
+      <a href="Art">
         <img src={artgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="#/Writing">
+      <a href="Writing">
         <img src={writinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="#/Websites">
+      <a href="Websites">
         <img src={websitesgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="#/Ranting">
+      <a href="Ranting">
         <img src={rantinggif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="#/Socials">
+      <a href="Socials">
         <img src={socialsgif} />
       </a>
     </div>
     <div id="tabs">
-      <a href="#/Guestbook">
+      <a href="Guestbook">
         <img src={guestbookgif} />
       </a>
     </div>
   </div>
+  </nav>
   <div id="waves">
     <Wave fill='#9461ed85'
         paused={false}
