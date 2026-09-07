@@ -74,13 +74,13 @@ function App() {
   </nav>
 
 <Routes>
-  <Route path="/Home" element={<Homefunc />}/>
-  <Route path="/Art" element={<Artfunc />}/>
-  <Route path="/Writing" element={<Writingfunc />}/>
-  <Route path="/Ranting" element={<Rantingfunc />}/>
-  <Route path="/Websites" element={<Websitesfunc />}/>
-  <Route path="/Socials" element={<Socialsfunc />}/>
-  <Route path="/Guestbook" element={<Guestbookfunc />}/>
+  <Route path="#/Home" element={<Homefunc />}/>
+  <Route path="#/Art" element={<Artfunc />}/>
+  <Route path="#/Writing" element={<Writingfunc />}/>
+  <Route path="#/Ranting" element={<Rantingfunc />}/>
+  <Route path="#/Websites" element={<Websitesfunc />}/>
+  <Route path="#/Socials" element={<Socialsfunc />}/>
+  <Route path="#/Guestbook" element={<Guestbookfunc />}/>
 </Routes>
 </BrowserRouter>
 
