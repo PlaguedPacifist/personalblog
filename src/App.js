@@ -36,37 +36,37 @@ function App() {
 <nav>
   <div id="sidetabs">
     <div id="tabs">
-      <Link to="/Home">
+      <Link to="#/Home">
         <img src={homegif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="/Art">
+      <Link to="#/Art">
         <img src={artgif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="/Writing">
+      <Link to="#/Writing">
         <img src={writinggif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="/Websites">
+      <Link to="#/Websites">
         <img src={websitesgif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="/Ranting">
+      <Link to="#/Ranting">
         <img src={rantinggif} />
       </Link>
     </div>
     <div id="tabs">
-      <Link to="/Socials">
+      <Link to="#/Socials">
         <img src={socialsgif} />
       </Link>
     </div>
     <div id="tabs">
-        <Link to="/Guestbook">
+        <Link to="#/Guestbook">
         <img src={guestbookgif} />
       </Link>
     </div>
