@@ -9,7 +9,8 @@ import art7 from './imgfiles/3AttemptatAnatomy.png'
 import art8 from './imgfiles/3RespiteFromRealityUnfinished.png'
 import art9 from './imgfiles/LobotomyEGOGreenStemAubreyFB.png'
 import art10 from './imgfiles/LobotomyEGORegretSunnyFB.png'
-
+import art11 from './imgfiles/Petunia_Shovel.png'
+import art12 from './imgfiles/Petunia_Breller.png'
 
 export function Artfunc() {
   return (
@@ -25,6 +26,10 @@ export function Artfunc() {
   <div id="maincontent">
     <h1>Art!</h1>
     <p>Bunch of art stuff I drew</p>
+    <img src={art11} />
+    <p>Omori 2025 Styled Petunia Birthday Art</p>
+    <img src={art12} />
+    <p>Umbreller Alt</p>
     <img src={art1} />
     <p>House Of Spiders + Ryoshu x Omori (unfinished)</p>
     <img src={art2} />
